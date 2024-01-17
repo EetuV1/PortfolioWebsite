@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./styles/lastSection.css"
+import "./styles/LastSection.css"
 
 const LastSection = () => {
     return (
