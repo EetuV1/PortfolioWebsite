@@ -1,0 +1,110 @@
+.landingPageContainer {
+    height: 100svh;
+
+    overflow: hidden;
+}
+
+.spaceVideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -100;
+    left: 0;
+    top: 0;
+    transform: scale(1.5);
+}
+
+.elementBox {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: scale(0);
+    transition: opacity 0.5s, transform 2s;
+}
+
+.elementBoxAnimation {
+    transform: scale(1);
+}
+
+.textContainer h1 {
+    font-size: 44px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.textContainer p {
+    margin-bottom: 4px;
+}
+
+.mail {
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.github {
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.mail:hover,
+.github:hover {
+    box-shadow: 0 0 35px rgb(51, 78, 198);
+    scale: 1.07;
+    transition: 0.5s;
+}
+
+.theHandsomeGuy {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    box-shadow: 0 0 25px rgba(51, 78, 198, 0.5);
+    margin-left: 60px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.theHandsomeGuy img {
+    width: 100%;
+    filter: grayscale(30%);
+}
+
+/* -----------  Phone Version   ----------- */
+@media only screen and (max-width: 600px) {
+    .textContainer h1 {
+        font-size: 40px;
+        text-align: left;
+        max-width: 200px;
+    }
+
+    .spaceVideo {
+        position: fixed;
+    }
+
+    .theHandsomeGuy {
+        height: 120px;
+        width: 120px;
+        margin-left: 0px;
+    }
+
+    .mail {
+        height: 40px;
+        margin-top: 40px;
+        border-radius: 50%;
+    }
+
+    .github {
+        height: 40px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+}

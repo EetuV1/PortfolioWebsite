@@ -1,0 +1,85 @@
+.allProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 2em; /* Added padding similar to the body in the original CSS */
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.356);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.projectName {
+    padding: 20px;
+    font-weight: 900;
+    width: 200px;
+}
+
+.projectText {
+    padding: 20px;
+    text-align: justify; /* Added text-align to justify the text */
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.projectImg {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: auto;
+}
+
+.projectImg img {
+    height: 300px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgb(51, 78, 198);
+}
+
+.projectContainer a {
+    color: rgb(51, 78, 198);
+}
+.projectContainer h3 {
+    font-weight: 500;
+}
+
+.projectName h6 {
+    color: rgba(255, 255, 255, 0.823);
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
+/* -----------  Phone Version   ----------- */
+@media only screen and (max-width: 600px) {
+    .allProjectsContainer {
+        padding: 0;
+        background-color: rgb(0, 0, 18);
+    }
+    .projectContainer {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .projectName {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .projectText {
+        padding: 20px;
+        min-width: auto;
+        max-width: auto;
+    }
+    .projectImg img {
+        height: auto;
+        width: 90%;
+    }
+}

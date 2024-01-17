@@ -1,0 +1,38 @@
+.aboutMeContainer {
+    display: flex;
+    background-color: rgb(0, 0, 18);
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.aboutMeText {
+    background-color: rgb(0, 0, 18);
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icons {
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(51, 78, 198);
+}
+
+/* -----------  Phone Version   ----------- */
+/* @media only screen and (max-width: 600px) {
+    .aboutMeContainer {
+        background-color: transparent;
+    }
+    .aboutMeText {
+        background-color: transparent;
+    }
+} */
