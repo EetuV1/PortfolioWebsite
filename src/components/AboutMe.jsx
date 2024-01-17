@@ -1,9 +1,9 @@
-import React, { Component } from "react"
+import React from "react"
 
 import "./styles/AboutMe.css"
 
 import JavaScript from "../assets/JavaScript.png"
-import react from "../assets/React.png"
+import react from "../assets/react.png"
 import Git from "../assets/Git.png"
 import Python from "../assets/Python.png"
 import css from "../assets/css.png"
