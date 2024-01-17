@@ -1,6 +1,6 @@
 import React from "react"
 
-import notePop from "../../assets/notePop.png"
+import notePop from "../../assets/NotePop.png"
 
 import "../styles/Projects.css"
 
