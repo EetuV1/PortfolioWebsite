@@ -47,10 +47,10 @@ const AboutMe = () => {
                 </p>
                 <p>
                     I'm interested in many things, especially in tech, and I
-                    have tried quite a few. I have listed some of my most
-                    familiar tools below. I have also worked with machine
-                    learning and would eagerly deepen my understanding through
-                    practical and meaningful projects.
+                    have tried quite a few programming related things. I have
+                    listed some of my most familiar tools below. I have also
+                    worked with machine learning and would eagerly deepen my
+                    understanding through practical and meaningful projects.
                 </p>
             </div>
             <div className="iconContainer">

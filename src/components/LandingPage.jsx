@@ -51,18 +51,18 @@ const LandingPage = () => {
                 style={{ transform: `scale(${scale})` }}
             >
                 <div className="textContainer">
-                    <p>Hi, I'm</p>
-                    <h1>Eetu Valkamo</h1>
-                    <p>Software Developer</p>
+                    <p id="hiIm">Hi, I'm</p>
+                    <h1 id="eetuValkamo">Eetu Valkamo</h1>
+                    <p id="softwareDeveloper">Software Developer</p>
                     {/* <p>Software Engineering and Project Manager Student</p> */}
                     <a href="mailto:eetu.valkamo@gmail.com">
-                        <img src={mail} alt="Mail" className="mail" />
+                        <img src={mail} alt="Mail" id="mail" />
                     </a>
                     <a href="https://github.com/EetuV1" target="_blank">
-                        <img src={github} alt="Github" className="github" />
+                        <img src={github} alt="Github" id="github" />
                     </a>
                 </div>
-                <div className="theHandsomeGuy">
+                <div id="theHandsomeGuy">
                     <img src={theHandsomeGuy} alt="The Handsome Guy" />
                 </div>
             </div>

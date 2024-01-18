@@ -1,5 +1,5 @@
 .landingPageContainer {
-    height: 100svh;
+    height: 100dvh;
 
     overflow: hidden;
 }
@@ -30,38 +30,45 @@
     transform: scale(1);
 }
 
-.textContainer h1 {
-    font-size: 44px;
-    font-weight: 100;
-    margin-top: 0px;
-    margin-bottom: 2px;
-}
-
-.textContainer p {
+#hiIm {
     margin-bottom: 4px;
 }
 
-.mail {
+#eetuValkamo {
+    font-size: 44px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    margin-left: -2px;
+}
+
+#softwareDeveloper {
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+#mail {
     height: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 50%;
 }
 
-.github {
+#github {
     height: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 20px;
     border-radius: 50%;
 }
 
-.mail:hover,
-.github:hover {
+#mail:hover,
+#github:hover {
     box-shadow: 0 0 35px rgb(51, 78, 198);
     scale: 1.07;
     transition: 0.5s;
 }
 
-.theHandsomeGuy {
+#theHandsomeGuy {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -73,7 +80,7 @@
     border: 1px solid rgb(0, 0, 0);
 }
 
-.theHandsomeGuy img {
+#theHandsomeGuy img {
     width: 100%;
     filter: grayscale(30%);
 }
@@ -90,19 +97,19 @@
         position: fixed;
     }
 
-    .theHandsomeGuy {
+    #theHandsomeGuy {
         height: 120px;
         width: 120px;
         margin-left: 0px;
     }
 
-    .mail {
+    #mail {
         height: 40px;
         margin-top: 40px;
         border-radius: 50%;
     }
 
-    .github {
+    #github {
         height: 40px;
         margin-top: 40px;
         margin-left: 20px;

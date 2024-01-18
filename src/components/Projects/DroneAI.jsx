@@ -46,11 +46,11 @@ const DroneAI = () => {
                     </p>
                     <p>
                         We chose to use YOLOv8 to train the model, considering
-                        it is one of the latest models. It was suprissingly
-                        simple and user-friendly. We were aware at the beginning
-                        that our training data was too narrow compared to
-                        real-life variables such as as object angles, distances,
-                        diverse object appearances, and weather conditions.
+                        it is one of the latest models. We were aware at the
+                        beginning that our training data was too narrow compared
+                        to real-life variables such as as object angles,
+                        distances, diverse object appearances, and weather
+                        conditions.
                     </p>
 
                     <p>

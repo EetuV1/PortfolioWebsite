@@ -1,19 +1,48 @@
-* {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-}
-
 body {
-    background-color: rgb(0, 0, 18);
-    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 20);
+    color: rgb(239, 239, 239);
     overflow-x: hidden;
     max-width: 1637px;
     margin: 0 auto;
     z-index: 1;
 }
+/* ------   Fonts   ------ */
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: normal;
+}
 
 h1 {
+    font-size: 36px;
     text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 350;
+}
+
+p {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+a {
+    color: rgb(69, 69, 224);
+}
+/* Date under project name */
+h6 {
+    color: rgba(255, 255, 255, 0.823);
+    margin-top: -15px;
+    margin-bottom: 0;
 }
 
 /* Easy fix to hide spaceVideo overflow to the sides of AboutMe */
