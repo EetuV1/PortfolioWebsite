@@ -26,13 +26,3 @@
     border-radius: 10px;
     box-shadow: 0 0 20px rgb(51, 78, 198);
 }
-
-/* -----------  Phone Version   ----------- */
-/* @media only screen and (max-width: 600px) {
-    .aboutMeContainer {
-        background-color: transparent;
-    }
-    .aboutMeText {
-        background-color: transparent;
-    }
-} */

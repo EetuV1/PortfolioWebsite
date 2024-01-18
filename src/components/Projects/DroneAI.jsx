@@ -15,75 +15,73 @@ const DroneAI = () => {
                 </div>
                 <div className="projectText">
                     <p>
-                        For autonomous ships and vessels, the vision is
-                        important. When you have a heavy ship or vessel, you
-                        need to make turns and slow down your speed well in
-                        advance. If you would have a camera system 50 to 100
-                        meters above the ship, you would have a vision much
-                        further away. The idea is to have a drone flying above
-                        the ship, and it would detect all kind of things like
-                        boats, ships, and sea marks (there probadly wouldn't be
-                        many other things at sea). It would then send the
-                        information to the ship, and the ship would then make
-                        the necessary adjustments.
+                        For autonomous ships and vessels, vision is crucial.
+                        When dealing with a large ship or vessel, anticipating
+                        turns and reducing speed well in advance is necessary.
+                        Imagine having a camera system positioned 50 to 100
+                        meters above the ship – this would provide a much
+                        broader field of vision. The concept involves deploying
+                        a drone flying above the ship to detect various elements
+                        such as boats, ships, and sea marks (there probably
+                        wouldn't be many other things at sea). The drone then
+                        relays this information to the ship, enabling it to make
+                        necessary adjustments.
                     </p>
                     <p>
-                        This was a project for a course called Innovation
-                        Project. There were 30 other projects. Our team had 8
-                        members. My assigned role was to train the model. We won
-                        the best technical solution award.
+                        This project was part of a course called Innovation
+                        Project, where 30 other projects were presented. Our
+                        team, consisting of 8 members, won the Best Technical
+                        Solution award. My assigned role was handling the object
+                        detection aspect along with another team member.
                     </p>
                     <h3>Object Detection</h3>
                     <p>
-                        Because the drone would detect at bird view, there isn't
-                        that much if any availabele pre-labeled data. We got
-                        some labeled data and unlabeled videos. Because the
-                        previous data was labeled with MatLab, we were told to
-                        use it as well. It was some of the hardest things in the
-                        project to convert the MatLab files to a format to be
-                        used in training. There are much better options for
-                        labeling.
+                        Since the drone operates from a bird's-eye view, there
+                        was limited pre-labeled data available. We got some
+                        previously labeled data and unlabeled videos. Because
+                        the existing data was labeled with MatLab, we were told
+                        to use it as well. Converting the Matlab files to a
+                        format suitable for training posed one of the largest
+                        challenges in the project.
                     </p>
                     <p>
-                        We decided to use YOLOv8, to train the model. It was
-                        suprissingly simple and user-friendly to use. The
-                        problem that was known at the beging was too narrow
-                        training data compared to all the changing real-life
-                        variables, like:
+                        We chose to use YOLOv8 to train the model, considering
+                        it is one of the latest models. It was suprissingly
+                        simple and user-friendly. We were aware at the beginning
+                        that our training data was too narrow compared to
+                        real-life variables such as as object angles, distances,
+                        diverse object appearances, and weather conditions.
                     </p>
-                    <ul>
-                        <li>Angle of the object</li>
-                        <li>Distance to the object</li>
-                        <li>Wide scale of different looking objects</li>
-                        <li>Wheater conditions</li>
-                    </ul>
+
                     <p>
-                        The model was able to detect some objects, but didn't do
-                        well with other that were far different from the ones
-                        included in the training data.
+                        While the model detected some objects well, it struggled
+                        with those significantly different from the training
+                        data. It also experienced some overfitting issues due to
+                        too many similiar images of the same object, and we
+                        didn't have time to address this.
                     </p>
                     <p>
                         And yes, this is supervised machine learning, but let's
-                        call it AI, like everyone else does in the AI hype.
+                        hop in the AI hype train and call it that.
                     </p>
 
                     <h3>Simulation</h3>
                     <p>
-                        One of our group members had some previuos experience
-                        with building a Blender simulation. With that we could
-                        generate different kind of wheather conditions, that
-                        effects how the model can detect objects. There fore we
-                        could have more versatile training data. Unfortunately,
-                        we didn't had time to train the model with the simulated
-                        data.
+                        One group member had previuos experience in building a
+                        Blender simulation. This allowed us to generate
+                        different weather conditions and have more versatile
+                        training data. Unfortunately, we didn't had time to
+                        train the model with the simulated data. It would have
+                        been interesting to see how it would have performed in
+                        detecting real-life objects.
                     </p>
 
                     <h3>Distance Calculations</h3>
                     <p>
-                        The distance prediction to the detected object can be
-                        calculated when the program knows the height of the
-                        drone, and the angle of the camera. After that it's
-                        pretty simple trigonometry with some twists.
+                        Predicting the distance to the detected object involves
+                        the program knowing the height of the drone and the
+                        angle of the camera. After that it's pretty simple
+                        trigonometry with some twists.
                     </p>
                 </div>
                 <div className="projectImg">

@@ -25,33 +25,32 @@ const AboutMe = () => {
             <h1>About Me</h1>
             <div className="aboutMeText">
                 <p>
-                    I'm a {myAge} year old student from Finland. I'm studying
-                    Software Engineering and Project Management at Turku
-                    University of Applied Sciences at third year.
+                    I'm a {myAge}-year-old Software Engineering and Project
+                    Management student at Turku University of Applied Sciences
+                    in Finland, currently in my third year. I'm passionate about
+                    problem-solving, brainstorming innovative ideas, envisioning
+                    the future, and personal development. Programming serves as
+                    both a creative outlet and a means to tackle challenges.
                 </p>
                 <p>
-                    I have a passion for problem solving, brainstorming new
-                    ideas and approaches, and learning new things. Programming
-                    for me is a way to be creative and to solve problems. School
-                    hasn't thought me as much as I would like, so I have been
-                    learning a lot on my own with a help of ChatGpt, YouTube,
-                    other online material, and Full Stack open -online course
-                    (highly recommend). I think that LLM's are the way to help
-                    you to learn, but there is also a risk of not actually
-                    learning by just copy-pasting, but you would't get far with
-                    that approach.
+                    Despite my academic journey, I've found independent learning
+                    crucial. YouTube, ChatGPT, and resources like the Full Stack
+                    open online course (highly recommend) have been invaluable.
+                    Learning by doing resonates with me. I believe in the power
+                    of LLMs to help you learn, but caution against mindless
+                    copy-pasting.
                 </p>
                 <p>
-                    I usually like to focus on one thing at a time, and I really
-                    like project-kind of work style. Im interested of many
-                    things, but right now I would like to be part of a larger
-                    project with other more skilled project members.
+                    I thrive in a focused, project-oriented work style and I'm
+                    currently seeking involvement in a substantial project with
+                    skilled collaborators, aiming to learn and grow.
                 </p>
                 <p>
-                    I have listed some of my most familiar technologies below. I
-                    have also done some with machine learning models like YOLO,
-                    TensorFlow and Keras. And would like to go deeper into them
-                    via some interesting and usefull projects.
+                    I'm interested in many things, especially in tech, and I
+                    have tried quite a few. I have listed some of my most
+                    familiar tools below. I have also worked with machine
+                    learning and would eagerly deepen my understanding through
+                    practical and meaningful projects.
                 </p>
             </div>
             <div className="iconContainer">
