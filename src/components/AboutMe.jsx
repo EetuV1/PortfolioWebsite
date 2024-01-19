@@ -34,11 +34,11 @@ const AboutMe = () => {
                 </p>
                 <p>
                     Despite my academic journey, I've found independent learning
-                    crucial. YouTube, ChatGPT, and resources like the Full Stack
-                    open online course (highly recommend) have been invaluable.
-                    Learning by doing resonates with me. I believe in the power
-                    of LLMs to help you learn, but caution against mindless
-                    copy-pasting.
+                    crucial. YouTube, Full Stack open online course (highly
+                    recommend), and other free online resources have been
+                    invaluable. Learning by doing resonates with me. I believe
+                    in the power of LLMs to help you learn, but caution against
+                    mindless copy-pasting.
                 </p>
                 <p>
                     I thrive in a focused, project-oriented work style and I'm

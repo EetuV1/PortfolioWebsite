@@ -23,7 +23,7 @@ const LandingPage = () => {
         const handleScroll = () => {
             setScrollY(window.scrollY)
             if (window.scrollY > 100) {
-                setScale(30)
+                setScale(40)
             } else if (window.scrollY < 100) {
                 setScale(1)
             }
