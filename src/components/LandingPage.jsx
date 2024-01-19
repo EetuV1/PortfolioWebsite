@@ -15,7 +15,7 @@ const LandingPage = () => {
     useEffect(() => {
         setTimeout(() => {
             setScale(1)
-        }, 100)
+        }, 1000)
     }, [])
 
     // The zoom-out animatin when scrolled down
