@@ -54,7 +54,7 @@ const LandingPage = () => {
                     <p id="hiIm">Hi, I'm</p>
                     <h1 id="eetuValkamo">Eetu Valkamo</h1>
                     <p id="softwareDeveloper">Software Developer</p>
-                    {/* <p>Software Engineering and Project Manager Student</p> */}
+
                     <a href="mailto:eetu.valkamo@gmail.com">
                         <img src={mail} alt="Mail" id="mail" />
                     </a>

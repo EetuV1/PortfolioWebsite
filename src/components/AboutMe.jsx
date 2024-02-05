@@ -11,26 +11,18 @@ import html from "../assets/html.png"
 
 const images = [JavaScript, react, Python, css, html, Git]
 
-const birthdate = new Date(2000, 7, 24) // August is represented by 7 (0-based index)
-const today = new Date()
-const ageInMilliseconds = today - birthdate
-const ageInYears = Math.floor(
-    ageInMilliseconds / (365.25 * 24 * 60 * 60 * 1000)
-)
-
 const AboutMe = () => {
-    const myAge = ageInYears
     return (
         <div className="aboutMeContainer">
             <h1>About Me</h1>
             <div className="aboutMeText">
                 <p>
-                    I'm a {myAge}-year-old Software Engineering and Project
-                    Management student at Turku University of Applied Sciences
-                    in Finland, currently in my third year. I'm passionate about
-                    problem-solving, brainstorming innovative ideas, envisioning
-                    the future, and personal development. Programming serves as
-                    both a creative outlet and a means to tackle challenges.
+                    I'm a Software Engineering and Project Management student at
+                    Turku University of Applied Sciences in Finland, currently
+                    in my third year. I'm passionate about problem-solving,
+                    brainstorming innovative ideas, envisioning the future, and
+                    personal development. Programming serves as both a creative
+                    outlet and a means to solve problems.
                 </p>
                 <p>
                     Despite my academic journey, I've found independent learning

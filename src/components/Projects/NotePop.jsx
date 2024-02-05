@@ -32,6 +32,15 @@ const NotePop = () => {
                             Chrome Web Store.
                         </a>
                     </p>
+                    <p>
+                        You can find the code on my{" "}
+                        <a
+                            href="https://github.com/EetuV1/NotePop-Chrome"
+                            target="_blank"
+                        >
+                            GitHub.
+                        </a>
+                    </p>
                     <h3>Safari Extension (Under development)</h3>
                     <p>
                         I'm currently working on adapting this extension for
