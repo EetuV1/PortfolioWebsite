@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import model from "../../assets/model.png"
 import simulation from "../../assets/simulation.png"
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState } from "react"
 
 import spaceVideo from "../assets/spaceVideo.mp4"

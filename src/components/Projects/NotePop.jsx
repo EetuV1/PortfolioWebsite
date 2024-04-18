@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import notePop from "../../assets/NotePop.png"
 
 import "../styles/Projects.css"
