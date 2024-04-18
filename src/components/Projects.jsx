@@ -1,5 +1,3 @@
-import React from "react"
-
 import NotePop from "./Projects/NotePop"
 import DroneAI from "./Projects/DroneAI"
 

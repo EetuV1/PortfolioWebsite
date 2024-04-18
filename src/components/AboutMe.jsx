@@ -1,5 +1,3 @@
-import React from "react"
-
 import "./styles/AboutMe.css"
 
 import JavaScript from "../assets/JavaScript.png"
@@ -17,31 +15,21 @@ const AboutMe = () => {
             <h1>About Me</h1>
             <div className="aboutMeText">
                 <p>
-                    I'm a Software Engineering and Project Management student at
-                    Turku University of Applied Sciences in Finland, currently
-                    in my third year. I'm passionate about problem-solving,
-                    brainstorming innovative ideas, envisioning the future, and
-                    personal development. Programming serves as both a creative
-                    outlet and a means to solve problems.
+                    Passionate about problem-solving, brainstorming innovative
+                    ideas, envisioning the future, and personal development.
+                    Programming serves as both a creative outlet and a means to
+                    solve problems.
                 </p>
                 <p>
-                    Despite my academic journey, I've found independent learning
-                    crucial. YouTube, Full Stack open online course (highly
-                    recommend), and other free online resources have been
-                    invaluable. Learning by doing resonates with me. I believe
-                    in the power of LLMs to help you learn, but caution against
-                    mindless copy-pasting.
+                    Thriving in a project-oriented work style and currently
+                    seeking involvement in a substantial project with skilled
+                    collaborators, aiming to learn and grow.
                 </p>
                 <p>
-                    I thrive in a focused, project-oriented work style and I'm
-                    currently seeking involvement in a substantial project with
-                    skilled collaborators, aiming to learn and grow.
-                </p>
-                <p>
-                    I'm interested in many things, especially in tech, and I
-                    have tried quite a few programming related things. I have
-                    listed some of my most familiar tools below. I have also
-                    worked with machine learning and would eagerly deepen my
+                    Interested in many things, especially in tech, and have
+                    tried quite a few programming-related things. Some of my
+                    most familiar tools are listed below. I have also worked a
+                    little bit with machine learning and would eagerly deepen my
                     understanding through practical and meaningful projects.
                 </p>
             </div>

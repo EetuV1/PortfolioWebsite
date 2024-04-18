@@ -1,5 +1,3 @@
-import React from "react"
-
 import notePop from "../../assets/NotePop.png"
 
 import "../styles/Projects.css"
@@ -28,6 +26,7 @@ const NotePop = () => {
                         <a
                             href="https://chromewebstore.google.com/detail/notepop/lmafejapjjjbkjhdocgppgpkgfobecbp"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Chrome Web Store.
                         </a>
@@ -37,6 +36,7 @@ const NotePop = () => {
                         <a
                             href="https://github.com/EetuV1/NotePop-Chrome"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             GitHub.
                         </a>

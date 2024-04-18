@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 import spaceVideo from "../assets/spaceVideo.mp4"
 import theHandsomeGuy from "../assets/theHandsomeGuy2.jpeg"
@@ -8,7 +8,6 @@ import mail from "../assets/mail.png"
 import "./styles/LandingPage.css"
 
 const LandingPage = () => {
-    const [scrollY, setScrollY] = useState(0)
     const [scale, setScale] = useState(0)
 
     // The zoom-in animation when loaded
@@ -21,9 +20,8 @@ const LandingPage = () => {
     // The zoom-out animatin when scrolled down
     useEffect(() => {
         const handleScroll = () => {
-            setScrollY(window.scrollY)
             if (window.scrollY > 100) {
-                setScale(40)
+                setScale(60)
             } else if (window.scrollY < 100) {
                 setScale(1)
             }
@@ -58,7 +56,11 @@ const LandingPage = () => {
                     <a href="mailto:eetu.valkamo@gmail.com">
                         <img src={mail} alt="Mail" id="mail" />
                     </a>
-                    <a href="https://github.com/EetuV1" target="_blank">
+                    <a
+                        href="https://github.com/EetuV1"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <img src={github} alt="Github" id="github" />
                     </a>
                 </div>

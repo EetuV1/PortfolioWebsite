@@ -1,5 +1,3 @@
-import React from "react"
-
 import model from "../../assets/model.png"
 import simulation from "../../assets/simulation.png"
 
