@@ -53,6 +53,24 @@ const NotePop = () => {
                         to this approach. I'm considering implementing this
                         feature into the Chrome version as well.
                     </p>
+                    <h3>NotePop! Website</h3>
+                    <p>
+                        Chrome extensions must have a publicly accessible
+                        privacy policy. Therefore, I created a simple website
+                        for NotePop! that ended up being a bit fancier than
+                        originally intended just for the privacy policy.
+                    </p>
+                    <p>
+                        {" "}
+                        Link to the website:{" "}
+                        <a
+                            href="https://notepopextension.com"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            notepopextension.com
+                        </a>
+                    </p>
                 </div>
                 <div className="projectImg">
                     <img src={notePop} alt="NotePop" className="notePopImg" />
